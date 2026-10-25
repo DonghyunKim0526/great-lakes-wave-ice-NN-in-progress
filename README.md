@@ -4,7 +4,11 @@
 
 This research investigates wave–ice interactions in the Great Lakes by connecting spectral wave modeling, coupled wave–ice physics, and scientific machine learning. The central question is whether neural network surrogates can represent selected wave attenuation or ice fracture processes accurately while reducing computational cost relative to numerical models.
 
-**Current stage:** literature review and an executable WIFF1.0 component reproduction, providing a foundation for developing a **prototype neural network surrogate tailored to wave-ice processes in the Great Lakes**. The reproduction runs the authors' pretrained networks on their official archived numerical data and compares them with newly computed local SP-WIFF fracture histograms. **The next research objective is to develop this Great Lakes surrogate and, once reference data are available, evaluate its predictive performance and computational cost against an existing numerical model.** The current reproduction does not yet establish performance under Great Lakes conditions.
+**Current stage:** literature review and an executable WIFF1.0 component reproduction, providing a foundation for developing a **prototype neural network surrogate tailored to wave-ice processes in the Great Lakes**. The reproduction runs the authors' pretrained networks on their official archived numerical data and compares them with newly computed local SP-WIFF fracture histograms.
+
+![The next research objective is to develop a prototype neural network surrogate for Great Lakes wave-ice processes and, once reference data are available, evaluate its predictive performance and computational cost against an existing numerical model.](assets/research-objective.svg)
+
+The current reproduction does not yet establish performance under Great Lakes conditions.
 
 ## Research objectives
 

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="146" viewBox="0 0 960 146" role="img" aria-labelledby="title desc">
+  <title id="title">Next research objective</title>
+  <desc id="desc">Develop a prototype neural network surrogate tailored to Great Lakes wave-ice processes and, once reference data are available, evaluate its predictive performance and computational cost against an existing numerical model.</desc>
+  <g fill="#d73a49" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600">
+    <text x="0" y="28">The next research objective is to develop a prototype neural network</text>
+    <text x="0" y="62">surrogate for Great Lakes wave-ice processes and, once reference data</text>
+    <text x="0" y="96">are available, evaluate its predictive performance and computational</text>
+    <text x="0" y="130">cost against an existing numerical model.</text>
+  </g>
+</svg>
