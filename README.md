@@ -48,15 +48,15 @@ Original PDFs are source publications; summaries are existing Korean-language re
 
 ## Korean translations
 
-The [translation directory](literature%20review/translation) mirrors the five literature categories. Each folder contains the existing Korean paper translation as `translation.pdf` and an identical copy of the corresponding literature folder's `summary.pdf`.
+The [translation directory](literature%20review/translation) mirrors the five literature categories. Each folder contains the existing Korean paper translation named by paper title, author, and year, with a `Korean Translation` suffix and an identical copy of the corresponding literature folder's `summary.pdf`.
 
 | Theme | Translation | Summary |
 | --- | --- | --- |
-| Review | [PDF](literature%20review/translation/1.review/translation.pdf) | [PDF](literature%20review/translation/1.review/summary.pdf) |
-| One-way coupling | [PDF](literature%20review/translation/2.one_way_coupled/translation.pdf) | [PDF](literature%20review/translation/2.one_way_coupled/summary.pdf) |
-| WAVEWATCH III ice–wave modeling | [PDF](literature%20review/translation/3.wavewatch3_icewave/translation.pdf) | [PDF](literature%20review/translation/3.wavewatch3_icewave/summary.pdf) |
-| Fully coupled modeling | [PDF](literature%20review/translation/4.fully-coupled/translation.pdf) | [PDF](literature%20review/translation/4.fully-coupled/summary.pdf) |
-| ML wave–ice parameterization | [PDF](literature%20review/translation/5.ML-wave-ice-parametrization/translation.pdf) | [PDF](literature%20review/translation/5.ML-wave-ice-parametrization/summary.pdf) |
+| Review | [PDF](literature%20review/translation/1.review/Ocean%20Wave%20Interactions%20with%20Sea%20Ice%20-%20A%20Reappraisal%20-%20Vernon%20A.%20Squire%20%282020%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/1.review/summary.pdf) |
+| One-way coupling | [PDF](literature%20review/translation/2.one_way_coupled/Modeling%20the%20ice-attenuated%20waves%20in%20the%20Great%20Lakes%20-%20Peng%20Bai%20et%20al.%20%282020%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/2.one_way_coupled/summary.pdf) |
+| WAVEWATCH III ice–wave modeling | [PDF](literature%20review/translation/3.wavewatch3_icewave/Winter%20Ice-Wave%20Modeling%20With%20WAVEWATCH%20III%20in%20Lake%20Erie%20-%20Haoguo%20Hu%20et%20al.%20%282025%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/3.wavewatch3_icewave/summary.pdf) |
+| Fully coupled modeling | [PDF](literature%20review/translation/4.fully-coupled/Simulating%20ice-wave%20interactions%20in%20the%20Laurentian%20Great%20Lakes%20using%20a%20fully%20coupled%20hydrodynamic-ice-wave%20model%20-%20M.%20Javad%20Javaherian%20et%20al.%20%282025%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/4.fully-coupled/summary.pdf) |
+| ML wave–ice parameterization | [PDF](literature%20review/translation/5.ML-wave-ice-parametrization/WIFF1.0%20-%20a%20hybrid%20machine-learning-based%20parameterization%20of%20wave-induced%20sea%20ice%20floe%20fracture%20-%20Horvat%20and%20Roach%20%282022%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/5.ML-wave-ice-parametrization/summary.pdf) |
 
 ## WIFF1.0 reproduction and Great Lakes adaptation
 
