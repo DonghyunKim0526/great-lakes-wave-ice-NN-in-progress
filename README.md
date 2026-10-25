@@ -30,7 +30,7 @@ literature review/
     ├── 4.fully-coupled/
     └── 5.ML-wave-ice-parametrization/
     # Every category contains a paper PDF named by title and author, plus summary.pdf.
-wiff-reproduction/
+wiff_model_reproduction/
 └── README.md
 ```
 
@@ -62,7 +62,7 @@ The [translation directory](literature%20review/translation) mirrors the five li
 
 ## WIFF1.0 reproduction and Great Lakes adaptation
 
-The next research step is [WIFF1.0 Reproduction and Great Lakes Adaptation](wiff-reproduction/README.md), based on Horvat and Roach (2022). Initial planning considers 25 binned wave spectral inputs, ice thickness, and ice concentration, with a 12-category floe size distribution as the target output. Exact binning, units, normalization, and output interpretation must be verified against the paper and implementation before experiments begin.
+The next research step is [WIFF1.0 Reproduction and Great Lakes Adaptation](wiff_model_reproduction/README.md), based on Horvat and Roach (2022). Initial planning considers 25 binned wave spectral inputs, ice thickness, and ice concentration, with a 12-category floe size distribution as the target output. Exact binning, units, normalization, and output interpretation must be verified against the paper and implementation before experiments begin.
 
 Candidate sources include NOAA GLERL wave and ice products. Availability of suitable wave spectra, ice thickness, and floe size observations remains to be established. Compatibility of ice models such as CICE with the proposed Great Lakes workflow is an open feasibility question.
 
