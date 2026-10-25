@@ -1,0 +1,67 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.5793692",
+  "archive_md5": "d32f01372c49efa671233caa75cb9b45",
+  "archive_root": "chhorvat-WIFF-Model-cbbfa5b/",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "51328e4c5c0da77ca6055999c917a5c382abccf67aa2b446100b7208699658af"
+    },
+    {
+      "path": "README.md",
+      "sha256": "05031fa4e3601f3b1675072edabb091030ff44d09f55fccbc8097e3e406aabfc"
+    },
+    {
+      "path": "Model/NN_v1.h5",
+      "sha256": "f6aac6abcd303cdc4854fe370387d6498b124cf77b17d75f676530bc9abcbe5b"
+    },
+    {
+      "path": "Model/NN_v1.txt",
+      "sha256": "e3f9b755e2e3ee486208a60cde6cc0e49a4cf08c59c83aad44689cdc31357610"
+    },
+    {
+      "path": "Model/SP_WIFF_Standalone.m",
+      "sha256": "bfe853af6aade8163974869a7c8358c9a308c257c1ccc0fc4e8a4883b58490df"
+    },
+    {
+      "path": "Classifier/Classifier_v1.h5",
+      "sha256": "f8275278a487e5cbe655ea438359d07e497365da2af0e4c0be4377bfa7017a7e"
+    },
+    {
+      "path": "Classifier/Classifier_v1.txt",
+      "sha256": "f15b8e8b7c7535ec08d930711aa3e88201a9a10ff64164b64555718ee392c4f2"
+    },
+    {
+      "path": "Misc/NN_params.mat",
+      "sha256": "b12bdfa0f9495651f7ba0f287d85280142876a74b0c76ade83298ed5f13f2a25"
+    },
+    {
+      "path": "Misc/peakfinder2.m",
+      "sha256": "122854d4ac0f3b7ad27177e6192c6cf3eb92b5cbac3bb82876142f5cebb83c1d"
+    },
+    {
+      "path": "CICE-Implementation/icepack_wavefracspec.F90",
+      "sha256": "a58ccdb4eeb5fdf405711c05dff807dc8ffbb3fe9cbb6df707c69c15dee24387"
+    },
+    {
+      "path": "Paper_Figures/Misc/training_preamble.m",
+      "sha256": "833724621e22234e741a0b88508910573e8147a9993093c1522a069bf175c714"
+    },
+    {
+      "path": "Paper_Figures/Misc/class_preamble.m",
+      "sha256": "7e963e09bf0e947fd8c5d8100d7726dd002436962ef5c0bd639daa2847e3d92a"
+    },
+    {
+      "path": "Paper_Figures/Fig-2/make_fig_2.m",
+      "sha256": "17f4ffc7c15a4d421dc36f8855357fa4c2f408fc69a77ddf49a0424cca3c325e"
+    },
+    {
+      "path": "Model/Print_Network.ipynb",
+      "sha256": "a7931c2b997f6588377486905d3aaca4228c13f5bd7cb7fd68ca86e68895672c"
+    },
+    {
+      "path": "Training/Classifier/Train_Classifier.ipynb",
+      "sha256": "2babd15ff60dbf35f51e5f02f05800a3850f87ff4f19fdfcd0486c2a0ab386c0"
+    }
+  ]
+}

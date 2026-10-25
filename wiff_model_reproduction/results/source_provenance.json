@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "record": "5793692",
+      "doi": "10.5281/zenodo.5793692",
+      "key": "chhorvat/WIFF-Model-v1.0b.zip",
+      "size": 2243336,
+      "md5": "d32f01372c49efa671233caa75cb9b45",
+      "url": "https://zenodo.org/api/records/5793692/files/chhorvat/WIFF-Model-v1.0b.zip/content",
+      "sha256": "da08190e721076dfd6e3ac40874530b166728f02f68bf5b0c18c21a2498508db"
+    },
+    {
+      "record": "5108636",
+      "doi": "10.5281/zenodo.5108636",
+      "key": "Training_converged.mat",
+      "size": 753361284,
+      "md5": "84547e2fcfa2821ccf9a2dd3057c3588",
+      "url": "https://zenodo.org/api/records/5108636/files/Training_converged.mat/content",
+      "sha256": "fa85e9bd7f7ea4929cf4156bbf341dc080e9dbc2baf6381b64d32e52af616e88"
+    }
+  ],
+  "upstream_files_manifest": "../vendor/manifest.json",
+  "data_note": "Official archive remains ignored locally; only derived outputs are committed."
+}

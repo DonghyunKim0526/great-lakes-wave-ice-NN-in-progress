@@ -4,7 +4,7 @@
 
 This research investigates wave–ice interactions in the Great Lakes by connecting spectral wave modeling, coupled wave–ice physics, and scientific machine learning. The central question is whether neural network surrogates can represent selected wave attenuation or ice fracture processes accurately while reducing computational cost relative to numerical models.
 
-**Current stage:** literature review. WIFF1.0 reproduction, surrogate development, and numerical benchmarking are planned; no reproduction or model performance results are claimed in this repository.
+**Current stage:** literature review and an executable WIFF1.0 component reproduction. The reproduction runs the authors' pretrained networks on their official archived numerical data and compares them with newly computed local SP-WIFF fracture histograms. Great Lakes adaptation, independent observational validation, retraining, and global CICE integration reproduction remain future work.
 
 ## Research objectives
 
@@ -62,7 +62,9 @@ The [translation directory](literature%20review/translation) mirrors the five li
 
 ## WIFF1.0 reproduction and Great Lakes adaptation
 
-The next research step is [WIFF1.0 Reproduction and Great Lakes Adaptation](wiff_model_reproduction/README.md), based on Horvat and Roach (2022). Initial planning considers 25 binned wave spectral inputs, ice thickness, and ice concentration, with a 12-category floe size distribution as the target output. Exact binning, units, normalization, and output interpretation must be verified against the paper and implementation before experiments begin.
+The [WIFF1.0 component reproduction](wiff_model_reproduction/README.md), based on Horvat and Roach (2022), includes executable Python code, pinned upstream weights, 14 tests, numerical evidence, and seven newly generated figures. It uses 25 wave spectral inputs, ice thickness, and concentration to predict a twelve-bin fracture histogram. The archive evaluation is not the original held-out split, and the fresh local-kernel comparisons do not reproduce whole-CICE simulations. See the [measured results and limits](wiff_model_reproduction/RESULTS.md).
+
+![WIFF histogram diagnostics](wiff_model_reproduction/figures/02_histogram_diagnostics.png)
 
 Candidate sources include NOAA GLERL wave and ice products. Availability of suitable wave spectra, ice thickness, and floe size observations remains to be established. Compatibility of ice models such as CICE with the proposed Great Lakes workflow is an open feasibility question.
 

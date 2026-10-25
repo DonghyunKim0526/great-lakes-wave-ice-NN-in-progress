@@ -1,0 +1,104 @@
+{
+  "archive_diagnostics": {
+    "sample_seed": 20261024,
+    "archive_population": 5087436,
+    "uniform_sample_size": 100000,
+    "eligible_sample_size": 100000,
+    "fracturing_sample_size": 52237,
+    "evaluation_scope": "Archived-data diagnostic using pretrained weights. The original train/validation membership is unavailable; this is NOT a held-out test.",
+    "threshold": 0.54,
+    "classifier_probability": "second softmax component = P(fracture), following training labels and archived Fortran",
+    "classifier_accuracy": 0.87636,
+    "false_positive_rate": 0.10660971882000712,
+    "false_negative_rate": 0.13921166988915903,
+    "confusion_matrix_true_rows_predicted_columns": [
+      [
+        42671,
+        5092
+      ],
+      [
+        7272,
+        44965
+      ]
+    ],
+    "histogram_median_sse_percent": 12.789146103235606,
+    "histogram_mean_rse_m": 29.37356607137692,
+    "histogram_mean_sae": 0.14493064725739271,
+    "histogram_median_symmetric_radius_error_percent": 3.904464434733933,
+    "paper_heldout_median_sse_percent_reference": 3.9,
+    "fraction_normalized_predictions": 1.0
+  },
+  "fresh_sp_comparison": {
+    "scope": "Fresh random-phase MATLAB stand-alone port at archived physical states; not independent observations or the original CICE Fortran trajectory.",
+    "cases": 24,
+    "converged_cases": 24,
+    "median_sp_seconds_per_state": 0.03875450004125014,
+    "median_nn_single_seconds_per_state": 6.145000224933028e-05,
+    "ratio_of_median_component_latencies": 630.6671866992895,
+    "median_nn_vs_fresh_sp_sse_percent": 30.394107062757854,
+    "median_single_iteration_vs_fresh_sp_sse_percent": 18.99481517033675,
+    "timing_note": "Single CPU BLAS thread; loaded weights and precomputed Fourier basis excluded; classifier/CICE/I-O excluded. Python component timings are not the paper's CICE speedup."
+  },
+  "convergence": [
+    {
+      "seed": 20261024,
+      "iterations": 8,
+      "converged": true,
+      "last_mean_histogram_change": 0.00023633312490413337
+    },
+    {
+      "seed": 20261025,
+      "iterations": 5,
+      "converged": true,
+      "last_mean_histogram_change": 0.00047930459643359533
+    },
+    {
+      "seed": 20261026,
+      "iterations": 5,
+      "converged": true,
+      "last_mean_histogram_change": 0.0003802540068091798
+    },
+    {
+      "seed": 20261027,
+      "iterations": 6,
+      "converged": true,
+      "last_mean_histogram_change": 0.0006409244691668308
+    },
+    {
+      "seed": 20261028,
+      "iterations": 7,
+      "converged": true,
+      "last_mean_histogram_change": 0.0003169862312631192
+    }
+  ],
+  "environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "h5py": "3.16.0",
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "C:\\Users\\USER\\Desktop\\work\\STATS750_project\\.wiff-venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "version": "0.3.34.106.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "C:\\Users\\USER\\Desktop\\work\\STATS750_project\\.wiff-venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+        "version": "0.3.31.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ],
+    "blas_thread_limit": 1
+  }
+}

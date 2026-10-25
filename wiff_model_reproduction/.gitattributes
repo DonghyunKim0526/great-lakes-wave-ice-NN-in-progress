@@ -1,0 +1,4 @@
+# Preserve upstream archive bytes so provenance hashes work on every platform.
+vendor/wiff-v1.0b/** -text
+*.py text eol=lf
+requirements*.txt text eol=lf
