@@ -59,4 +59,3 @@ Candidate sources include NOAA GLERL wave and ice products. Availability of suit
 - [Horvat and Roach (2022), WIFF1.0](https://gmd.copernicus.org/articles/15/803/2022/)
 - [NOAA GLERL ice information](https://www.glerl.noaa.gov/data/ice/#overview)
 
-Research planning status: October 24, 2026.
