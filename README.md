@@ -36,7 +36,7 @@ wiff-reproduction/
 
 ## Literature review
 
-| Theme | Focus | Original | Summary |
+| Theme | Focus | Original | English summary |
 | --- | --- | --- | --- |
 | Review | Physical mechanisms, observations, and wave–ice modeling context | [PDF](literature%20review/1.review/Ocean%20Wave%20Interactions%20with%20Sea%20Ice%20-%20A%20Reappraisal%20-%20Vernon%20A.%20Squire%20%282020%29.pdf) | [PDF](literature%20review/1.review/summary.pdf) |
 | One-way coupling | Ice attenuation and Great Lakes numerical modeling | [PDF](literature%20review/2.one_way_coupled/Modeling%20the%20ice-attenuated%20waves%20in%20the%20Great%20Lakes%20-%20Peng%20Bai%20et%20al.%20%282020%29.pdf) | [PDF](literature%20review/2.one_way_coupled/summary.pdf) |
@@ -44,13 +44,15 @@ wiff-reproduction/
 | Fully coupled modeling | Feedbacks between wave and ice states | [PDF](literature%20review/4.fully-coupled/Simulating%20ice-wave%20interactions%20in%20the%20Laurentian%20Great%20Lakes%20using%20a%20fully%20coupled%20hydrodynamic-ice-wave%20model%20-%20M.%20Javad%20Javaherian%20et%20al.%20%282025%29.pdf) | [PDF](literature%20review/4.fully-coupled/summary.pdf) |
 | ML wave–ice parameterization | WIFF1.0 and neural network representations of floe fracture | [PDF](literature%20review/5.ML-wave-ice-parametrization/WIFF1.0%20-%20a%20hybrid%20machine-learning-based%20parameterization%20of%20wave-induced%20sea%20ice%20floe%20fracture%20-%20Horvat%20and%20Roach%20%282022%29.pdf) | [PDF](literature%20review/5.ML-wave-ice-parametrization/summary.pdf) |
 
-Original PDFs are source publications; summaries are existing Korean-language research notes. Files were collected from the local research workspace and its Overleaf material. Reader-added highlights, handwriting, and note annotations have been removed from the paper PDFs; publication page content and links are preserved. Paper filenames include the title, author, and year. Historical labels inside the notes reflect their original preparation context. Source publications retain their respective authorship and rights.
+Original PDFs are source publications. Each `summary.pdf` in the five literature categories is a newly written English synthesis based directly on the corresponding original paper, with research questions, methods, key results, limitations, and implications for the Great Lakes project. Each includes every numbered figure from its source publication, with figure-by-figure reading notes and source attribution (5, 7, 10, 18, and 5 figures, respectively; 45 in total). These English summaries are separate from the Korean notes preserved under `translation/`.
+
+Source materials were collected from the local research workspace and its Overleaf material. Reader-added highlights, handwriting, and note annotations have been removed from the paper PDFs; publication page content and links are preserved. Paper filenames include the title, author, and year. Source publications and reproduced figures retain their respective authorship and rights.
 
 ## Korean translations
 
-The [translation directory](literature%20review/translation) mirrors the five literature categories. Each folder contains the existing Korean paper translation named by paper title, author, and year, with a `Korean Translation` suffix and an identical copy of the corresponding literature folder's `summary.pdf`.
+The [translation directory](literature%20review/translation) mirrors the five literature categories. Each folder contains the existing Korean paper translation named by paper title, author, and year, with a `Korean Translation` suffix, and the preserved Korean research notes as `summary.pdf`. These Korean notes are independent of the new English summaries in the parent literature categories and were not changed when the English summaries were added.
 
-| Theme | Translation | Summary |
+| Theme | Translation | Korean summary |
 | --- | --- | --- |
 | Review | [PDF](literature%20review/translation/1.review/Ocean%20Wave%20Interactions%20with%20Sea%20Ice%20-%20A%20Reappraisal%20-%20Vernon%20A.%20Squire%20%282020%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/1.review/summary.pdf) |
 | One-way coupling | [PDF](literature%20review/translation/2.one_way_coupled/Modeling%20the%20ice-attenuated%20waves%20in%20the%20Great%20Lakes%20-%20Peng%20Bai%20et%20al.%20%282020%29%20-%20Korean%20Translation.pdf) | [PDF](literature%20review/translation/2.one_way_coupled/summary.pdf) |
