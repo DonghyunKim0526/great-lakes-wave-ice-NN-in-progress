@@ -23,7 +23,7 @@ literature review/
 ├── 3.wavewatch3_icewave/
 ├── 4.fully-coupled/
 └── 5.ML-wave-ice-parametrization/
-    # Every category contains original.pdf and summary.pdf.
+    # Every category contains a paper PDF named by title and author, plus summary.pdf.
 wiff-reproduction/
 └── README.md
 ```
@@ -32,13 +32,13 @@ wiff-reproduction/
 
 | Theme | Focus | Original | Summary |
 | --- | --- | --- | --- |
-| Review | Physical mechanisms, observations, and wave–ice modeling context | [PDF](literature%20review/1.review/original.pdf) | [PDF](literature%20review/1.review/summary.pdf) |
-| One-way coupling | Ice attenuation and Great Lakes numerical modeling | [PDF](literature%20review/2.one_way_coupled/original.pdf) | [PDF](literature%20review/2.one_way_coupled/summary.pdf) |
-| WAVEWATCH III ice–wave modeling | Spectral modeling and ice parameterizations | [PDF](literature%20review/3.wavewatch3_icewave/original.pdf) | [PDF](literature%20review/3.wavewatch3_icewave/summary.pdf) |
-| Fully coupled modeling | Feedbacks between wave and ice states | [PDF](literature%20review/4.fully-coupled/original.pdf) | [PDF](literature%20review/4.fully-coupled/summary.pdf) |
-| ML wave–ice parameterization | WIFF1.0 and neural network representations of floe fracture | [PDF](literature%20review/5.ML-wave-ice-parametrization/original.pdf) | [PDF](literature%20review/5.ML-wave-ice-parametrization/summary.pdf) |
+| Review | Physical mechanisms, observations, and wave–ice modeling context | [PDF](literature%20review/1.review/Ocean%20Wave%20Interactions%20with%20Sea%20Ice%20-%20A%20Reappraisal%20-%20Vernon%20A.%20Squire%20%282020%29.pdf) | [PDF](literature%20review/1.review/summary.pdf) |
+| One-way coupling | Ice attenuation and Great Lakes numerical modeling | [PDF](literature%20review/2.one_way_coupled/Modeling%20the%20ice-attenuated%20waves%20in%20the%20Great%20Lakes%20-%20Peng%20Bai%20et%20al.%20%282020%29.pdf) | [PDF](literature%20review/2.one_way_coupled/summary.pdf) |
+| WAVEWATCH III ice–wave modeling | Spectral modeling and ice parameterizations | [PDF](literature%20review/3.wavewatch3_icewave/Winter%20Ice-Wave%20Modeling%20With%20WAVEWATCH%20III%20in%20Lake%20Erie%20-%20Haoguo%20Hu%20et%20al.%20%282025%29.pdf) | [PDF](literature%20review/3.wavewatch3_icewave/summary.pdf) |
+| Fully coupled modeling | Feedbacks between wave and ice states | [PDF](literature%20review/4.fully-coupled/Simulating%20ice-wave%20interactions%20in%20the%20Laurentian%20Great%20Lakes%20using%20a%20fully%20coupled%20hydrodynamic-ice-wave%20model%20-%20M.%20Javad%20Javaherian%20et%20al.%20%282025%29.pdf) | [PDF](literature%20review/4.fully-coupled/summary.pdf) |
+| ML wave–ice parameterization | WIFF1.0 and neural network representations of floe fracture | [PDF](literature%20review/5.ML-wave-ice-parametrization/WIFF1.0%20-%20a%20hybrid%20machine-learning-based%20parameterization%20of%20wave-induced%20sea%20ice%20floe%20fracture%20-%20Horvat%20and%20Roach%20%282022%29.pdf) | [PDF](literature%20review/5.ML-wave-ice-parametrization/summary.pdf) |
 
-Original PDFs are source publications; summaries are existing Korean-language research notes. Files were collected from the local research workspace and its Overleaf material and retained without altering their contents. Historical labels inside the notes reflect their original preparation context. Source publications retain their respective authorship and rights.
+Original PDFs are source publications; summaries are existing Korean-language research notes. Files were collected from the local research workspace and its Overleaf material. Reader-added highlights, handwriting, and note annotations have been removed from the paper PDFs; publication page content and links are preserved. Paper filenames include the title, author, and year. Historical labels inside the notes reflect their original preparation context. Source publications retain their respective authorship and rights.
 
 ## WIFF1.0 reproduction and Great Lakes adaptation
 

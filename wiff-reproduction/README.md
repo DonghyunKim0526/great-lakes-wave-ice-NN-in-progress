@@ -6,7 +6,7 @@
 
 Horvat and Roach (2022), WIFF1.0: [published article](https://gmd.copernicus.org/articles/15/803/2022/).
 
-See the [original paper](../literature%20review/5.ML-wave-ice-parametrization/original.pdf) and [existing summary](../literature%20review/5.ML-wave-ice-parametrization/summary.pdf).
+See the [original paper](../literature%20review/5.ML-wave-ice-parametrization/WIFF1.0%20-%20a%20hybrid%20machine-learning-based%20parameterization%20of%20wave-induced%20sea%20ice%20floe%20fracture%20-%20Horvat%20and%20Roach%20%282022%29.pdf) and [existing summary](../literature%20review/5.ML-wave-ice-parametrization/summary.pdf).
 
 ## Reproduction plan
 
