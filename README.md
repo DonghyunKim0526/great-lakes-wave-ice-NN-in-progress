@@ -22,7 +22,13 @@ literature review/
 ├── 2.one_way_coupled/
 ├── 3.wavewatch3_icewave/
 ├── 4.fully-coupled/
-└── 5.ML-wave-ice-parametrization/
+├── 5.ML-wave-ice-parametrization/
+└── translation/
+    ├── 1.review/
+    ├── 2.one_way_coupled/
+    ├── 3.wavewatch3_icewave/
+    ├── 4.fully-coupled/
+    └── 5.ML-wave-ice-parametrization/
     # Every category contains a paper PDF named by title and author, plus summary.pdf.
 wiff-reproduction/
 └── README.md
@@ -39,6 +45,18 @@ wiff-reproduction/
 | ML wave–ice parameterization | WIFF1.0 and neural network representations of floe fracture | [PDF](literature%20review/5.ML-wave-ice-parametrization/WIFF1.0%20-%20a%20hybrid%20machine-learning-based%20parameterization%20of%20wave-induced%20sea%20ice%20floe%20fracture%20-%20Horvat%20and%20Roach%20%282022%29.pdf) | [PDF](literature%20review/5.ML-wave-ice-parametrization/summary.pdf) |
 
 Original PDFs are source publications; summaries are existing Korean-language research notes. Files were collected from the local research workspace and its Overleaf material. Reader-added highlights, handwriting, and note annotations have been removed from the paper PDFs; publication page content and links are preserved. Paper filenames include the title, author, and year. Historical labels inside the notes reflect their original preparation context. Source publications retain their respective authorship and rights.
+
+## Korean translations
+
+The [translation directory](literature%20review/translation) mirrors the five literature categories. Each folder contains the existing Korean paper translation as `translation.pdf` and an identical copy of the corresponding literature folder's `summary.pdf`.
+
+| Theme | Translation | Summary |
+| --- | --- | --- |
+| Review | [PDF](literature%20review/translation/1.review/translation.pdf) | [PDF](literature%20review/translation/1.review/summary.pdf) |
+| One-way coupling | [PDF](literature%20review/translation/2.one_way_coupled/translation.pdf) | [PDF](literature%20review/translation/2.one_way_coupled/summary.pdf) |
+| WAVEWATCH III ice–wave modeling | [PDF](literature%20review/translation/3.wavewatch3_icewave/translation.pdf) | [PDF](literature%20review/translation/3.wavewatch3_icewave/summary.pdf) |
+| Fully coupled modeling | [PDF](literature%20review/translation/4.fully-coupled/translation.pdf) | [PDF](literature%20review/translation/4.fully-coupled/summary.pdf) |
+| ML wave–ice parameterization | [PDF](literature%20review/translation/5.ML-wave-ice-parametrization/translation.pdf) | [PDF](literature%20review/translation/5.ML-wave-ice-parametrization/summary.pdf) |
 
 ## WIFF1.0 reproduction and Great Lakes adaptation
 
