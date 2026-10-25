@@ -4,6 +4,44 @@ Executable reproduction of the **local fracture and neural-network components** 
 
 This component reproduction uses the authors' pretrained networks and official numerical training archive. It **does not retrain networks, rerun global CICE integrations, reproduce paper Figures 4-5, or validate a Great Lakes adaptation**. Archived-data diagnostics are not the original held-out test: the original train/validation membership is unavailable.
 
+## Research objective
+
+Reproduce the executable wave-induced floe-fracture mapping in WIFF1.0 and examine its accuracy, numerical behavior, and computational cost. The workflow connects the published physical fracture algorithm with the authors' neural-network surrogate, while keeping numerical emulation separate from observational validation and future Great Lakes adaptation.
+
+## Reproduction workflow
+
+1. Verify the official code release, pretrained weights, frequency bins, and floe-radius bins against pinned source checksums.
+2. Download and verify the authors' official numerical dataset.
+3. Evaluate the classifier and fracture-histogram network on a reproducible uniform sample of 100,000 archived states.
+4. Run the Python port of SP-WIFF on 24 randomly selected physical states and compare fresh numerical histograms with neural and single-iteration predictions.
+5. Measure component runtime, examine stochastic convergence, and save all generated figures and numerical evidence.
+
+## Results at a glance
+
+| Item | Executed result |
+| --- | --- |
+| Official archive | 5,087,436 physical states |
+| Uniform archive sample | 100,000 states; seed 20261024 |
+| Fracturing states in the sample | 52,237 |
+| Classifier accuracy | 87.636% |
+| Mean representative size error | 29.374 m |
+| Median weighted histogram error, RSE / R | 12.789% |
+| Median symmetric mean-radius error | 3.904% |
+| Fresh SP-WIFF cases meeting the stopping criterion | 24 / 24 |
+| Generated figures | 7, each available as PNG and vector PDF |
+| Automated tests | 14 passed |
+
+**The two percentage errors above measure different things.** The smaller value uses the released plotting helper's mean-radius definition; the weighted histogram error follows the paper's equations. The sample may overlap the original training data, so these are archive diagnostics rather than independent held-out performance. See [RESULTS.md](RESULTS.md) for the complete interpretation, fresh-kernel comparison errors, timing conditions, and limitations.
+
+## Start here
+
+- [Experiment and plotting code](reproduce.py)
+- [Network and physical fracture implementation](wiff.py)
+- [Measured results](RESULTS.md)
+- [All graphs](figures/)
+- [Numerical outputs and source provenance](results/)
+- [Verification tests](test_wiff.py)
+
 ## Run it
 
 Python 3.13 was used for the committed results. From this directory:
